@@ -1,40 +1,50 @@
 {
-  "keep": {
-    "days": true,
-    "amount": 14
-  },
-  "auditLog": "C:\\level-2\\assignment-3\\logs\\winston\\errors\\.0a6b8c60401668a992c5fe4d487cf40461bb81b9-audit.json",
-  "files": [
-    {
-      "date": 1687850677987,
-      "name": "C:\\level-2\\assignment-3\\logs\\winston\\errors\\assignment-2023-27-06-13-error.logs",
-      "hash": "fb947926bed8d80a866a1bae03f570ef797157bad10adc327bdc1d02860ceb1d"
+    "keep": {
+        "days": true,
+        "amount": 14
     },
-    {
-      "date": 1687856597583,
-      "name": "C:\\level-2\\assignment-3\\logs\\winston\\errors\\assignment-2023-27-06-15-error.logs",
-      "hash": "e5b5c0835983d568d89ac2cd091069b25160a20bf2f9ffa547a6d34f78fea9a2"
-    },
-    {
-      "date": 1687860347319,
-      "name": "C:\\level-2\\assignment-3\\logs\\winston\\errors\\assignment-2023-27-06-16-error.logs",
-      "hash": "5aadf3690f4708746647fdf4dd55604699fa646246483f838f480b719622e2bc"
-    },
-    {
-      "date": 1687869377289,
-      "name": "C:\\level-2\\assignment-3\\logs\\winston\\errors\\assignment-2023-27-06-18-error.logs",
-      "hash": "7e709687993e5fa4601cda69f552b8fc7fb5b75476e5388bbc90511f49f72bbc"
-    },
-    {
-      "date": 1687872407587,
-      "name": "C:\\level-2\\assignment-3\\logs\\winston\\errors\\assignment-2023-27-06-19-error.logs",
-      "hash": "ea99601ed848b3f362360c11c01b0d34855c2721ca4a22abc4bbd1808e754ca7"
-    },
-    {
-      "date": 1687933464621,
-      "name": "C:\\level-2\\assignment-3\\logs\\winston\\errors\\assignment-2023-28-06-12-error.logs",
-      "hash": "6ff691ccbb20742f25ac83e71cf5c947d77c2614898d7fbb716c81750b96224b"
-    }
-  ],
-  "hashType": "sha256"
+    "auditLog": "C:\\level-2\\assignment-3\\logs\\winston\\errors\\.0a6b8c60401668a992c5fe4d487cf40461bb81b9-audit.json",
+    "files": [
+        {
+            "date": 1687850677987,
+            "name": "C:\\level-2\\assignment-3\\logs\\winston\\errors\\assignment-2023-27-06-13-error.logs",
+            "hash": "fb947926bed8d80a866a1bae03f570ef797157bad10adc327bdc1d02860ceb1d"
+        },
+        {
+            "date": 1687856597583,
+            "name": "C:\\level-2\\assignment-3\\logs\\winston\\errors\\assignment-2023-27-06-15-error.logs",
+            "hash": "e5b5c0835983d568d89ac2cd091069b25160a20bf2f9ffa547a6d34f78fea9a2"
+        },
+        {
+            "date": 1687860347319,
+            "name": "C:\\level-2\\assignment-3\\logs\\winston\\errors\\assignment-2023-27-06-16-error.logs",
+            "hash": "5aadf3690f4708746647fdf4dd55604699fa646246483f838f480b719622e2bc"
+        },
+        {
+            "date": 1687869377289,
+            "name": "C:\\level-2\\assignment-3\\logs\\winston\\errors\\assignment-2023-27-06-18-error.logs",
+            "hash": "7e709687993e5fa4601cda69f552b8fc7fb5b75476e5388bbc90511f49f72bbc"
+        },
+        {
+            "date": 1687872407587,
+            "name": "C:\\level-2\\assignment-3\\logs\\winston\\errors\\assignment-2023-27-06-19-error.logs",
+            "hash": "ea99601ed848b3f362360c11c01b0d34855c2721ca4a22abc4bbd1808e754ca7"
+        },
+        {
+            "date": 1687933464621,
+            "name": "C:\\level-2\\assignment-3\\logs\\winston\\errors\\assignment-2023-28-06-12-error.logs",
+            "hash": "6ff691ccbb20742f25ac83e71cf5c947d77c2614898d7fbb716c81750b96224b"
+        },
+        {
+            "date": 1687941691299,
+            "name": "C:\\level-2\\assignment-3\\logs\\winston\\errors\\assignment-2023-28-06-14-error.logs",
+            "hash": "a1a0a3a17f67fcd2871e23e5d525ee91553133a26a42b25b7e03a8b679682cb4"
+        },
+        {
+            "date": 1687943038213,
+            "name": "C:\\level-2\\assignment-3\\logs\\winston\\errors\\assignment-2023-28-06-15-error.logs",
+            "hash": "d282375a4e022ec809bf177df1df734958df02006d75019b26fa46af5d53f1d9"
+        }
+    ],
+    "hashType": "sha256"
 }

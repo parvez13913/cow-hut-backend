@@ -7,6 +7,8 @@ import handelValidationError from '../../errors/handelValidationError'
 import ApiError from '../../errors/ApiError'
 import { Error } from 'mongoose'
 import { errorLogger } from '../modules/shared/logger'
+import { ZodError } from 'zod'
+import handelZodError from '../../errors/handelZodError'
 
 const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
   config.env === 'development'
@@ -18,6 +20,11 @@ const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
 
   if (error?.name === 'ValidationError') {
     const simplefiedError = handelValidationError(error)
+    statusCode = simplefiedError.statusCode
+    message = simplefiedError.message
+    errorMessages = simplefiedError.errorMessages
+  } else if (error instanceof ZodError) {
+    const simplefiedError = handelZodError(error)
     statusCode = simplefiedError.statusCode
     message = simplefiedError.message
     errorMessages = simplefiedError.errorMessages
