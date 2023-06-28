@@ -142,3 +142,15 @@
   label: 'cow-Hut',
   timestamp: '2023-06-28T06:47:14.428Z'
 }
+{
+  message: '🛢🛢 Database is Connected Successfully',
+  level: 'info',
+  label: 'cow-Hut',
+  timestamp: '2023-06-28T06:47:22.418Z'
+}
+{
+  message: 'Database listening on port 5000',
+  level: 'info',
+  label: 'cow-Hut',
+  timestamp: '2023-06-28T06:47:22.426Z'
+}
