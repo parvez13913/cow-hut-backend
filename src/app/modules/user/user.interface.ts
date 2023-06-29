@@ -1,7 +1,7 @@
 import { Model } from 'mongoose'
 
 export type IUser = {
-  id: string
+  id?: string
   password: string
   role: string
   name: {
@@ -12,8 +12,8 @@ export type IUser = {
   address: string
   budget: number
   income: number
-  createdAt: string
-  updatedAt: string
+  createdAt?: string
+  updatedAt?: string
 }
 
 export type UserModel = Model<IUser, Record<string, unknown>>
