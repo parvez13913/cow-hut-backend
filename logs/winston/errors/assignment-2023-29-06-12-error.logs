@@ -1,0 +1,88 @@
+{
+  errors: {
+    updatedAt: ValidatorError: Path `updatedAt` is required.
+        at validate (C:\level-2\assignment-3\node_modules\mongoose\lib\schematype.js:1349:13)
+        at SchemaString.SchemaType.doValidate (C:\level-2\assignment-3\node_modules\mongoose\lib\schematype.js:1333:7)
+        at C:\level-2\assignment-3\node_modules\mongoose\lib\document.js:2932:18
+        at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `updatedAt` is required.',
+        type: 'required',
+        path: 'updatedAt',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'updatedAt',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    createdAt: ValidatorError: Path `createdAt` is required.
+        at validate (C:\level-2\assignment-3\node_modules\mongoose\lib\schematype.js:1349:13)
+        at SchemaString.SchemaType.doValidate (C:\level-2\assignment-3\node_modules\mongoose\lib\schematype.js:1333:7)
+        at C:\level-2\assignment-3\node_modules\mongoose\lib\document.js:2932:18
+        at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `createdAt` is required.',
+        type: 'required',
+        path: 'createdAt',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'createdAt',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    id: ValidatorError: Path `id` is required.
+        at validate (C:\level-2\assignment-3\node_modules\mongoose\lib\schematype.js:1349:13)
+        at SchemaString.SchemaType.doValidate (C:\level-2\assignment-3\node_modules\mongoose\lib\schematype.js:1333:7)
+        at C:\level-2\assignment-3\node_modules\mongoose\lib\document.js:2932:18
+        at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `id` is required.',
+        type: 'required',
+        path: 'id',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'id',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'User validation failed',
+  level: 'error',
+  label: 'cow-Hut',
+  timestamp: '2023-06-29T06:23:22.484Z'
+}
+{
+  errors: {
+    id: ValidatorError: Path `id` is required.
+        at validate (C:\level-2\assignment-3\node_modules\mongoose\lib\schematype.js:1349:13)
+        at SchemaString.SchemaType.doValidate (C:\level-2\assignment-3\node_modules\mongoose\lib\schematype.js:1333:7)
+        at C:\level-2\assignment-3\node_modules\mongoose\lib\document.js:2932:18
+        at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: {
+        validator: [Function (anonymous)],
+        message: 'Path `id` is required.',
+        type: 'required',
+        path: 'id',
+        value: undefined
+      },
+      kind: 'required',
+      path: 'id',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'User validation failed',
+  level: 'error',
+  label: 'cow-Hut',
+  timestamp: '2023-06-29T06:24:44.733Z'
+}
