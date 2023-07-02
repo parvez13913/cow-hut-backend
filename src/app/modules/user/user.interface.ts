@@ -1,19 +1,13 @@
-import { Model } from 'mongoose'
+import { Model, Types } from 'mongoose'
+import { IBuyer } from '../buyer/buyer.interface'
+import { ISeller } from '../seller/seller.interface'
 
 export type IUser = {
-  id?: string
-  password: string
+  id: string
   role: string
-  name: {
-    firstName: string
-    lastName: string
-  }
-  phoneNumber: string
-  address: string
-  budget: number
-  income: number
-  createdAt?: string
-  updatedAt?: string
+  password: string
+  buyer?: Types.ObjectId | IBuyer
+  seller?: Types.ObjectId | ISeller
 }
 
 export type UserModel = Model<IUser, Record<string, unknown>>

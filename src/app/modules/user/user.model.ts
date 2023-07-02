@@ -18,39 +18,13 @@ const userSchema = new Schema<IUser, UserModel>(
       enum: UserRole,
       required: true,
     },
-    name: {
-      firstName: {
-        type: String,
-        required: true,
-      },
-      lastName: {
-        type: String,
-        required: true,
-      },
+    buyer: {
+      type: Schema.Types.ObjectId,
+      ref: 'Buyer',
     },
-    phoneNumber: {
-      type: String,
-      required: true,
-    },
-    address: {
-      type: String,
-      required: true,
-    },
-    budget: {
-      type: Number,
-      required: true,
-    },
-    income: {
-      type: Number,
-      required: true,
-    },
-    createdAt: {
-      type: String,
-      required: true,
-    },
-    updatedAt: {
-      type: String,
-      required: true,
+    seller: {
+      type: Schema.Types.ObjectId,
+      ref: 'Seller',
     },
   },
   {
