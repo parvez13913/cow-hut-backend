@@ -1,14 +1,12 @@
-import { z } from 'zod'
+import { z } from 'zod';
+import { UserRole } from './user.constants';
 
 const createUserZodSchema = z.object({
   body: z.object({
-    id: z.string().optional(),
     password: z.string({
       required_error: 'Password is required',
     }),
-    role: z.string({
-      required_error: 'Role is required',
-    }),
+    role: z.enum([...UserRole] as [string, ...string[]]),
     name: z.object({
       firstName: z.string({
         required_error: 'First Name is required',
@@ -24,16 +22,14 @@ const createUserZodSchema = z.object({
       required_error: 'Address is required',
     }),
     budget: z.number({
-      required_error: 'Number is Required',
+      required_error: 'Budget is Required',
     }),
     income: z.number({
-      required_error: 'Number is required',
+      required_error: 'income is required',
     }),
-    createdAt: z.string().optional(),
-    updatedAt: z.string().optional(),
   }),
-})
+});
 
 export const UserValidation = {
   createUserZodSchema,
-}
+};

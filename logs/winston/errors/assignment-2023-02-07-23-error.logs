@@ -1,0 +1,30 @@
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { id: 1 },
+  keyValue: { id: null },
+  level: 'error',
+  label: 'cow-Hut',
+  timestamp: '2023-07-02T17:18:09.900Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { id: 1 },
+  keyValue: { id: null },
+  level: 'error',
+  label: 'cow-Hut',
+  timestamp: '2023-07-02T17:22:20.875Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { id: 1 },
+  keyValue: { id: null },
+  level: 'error',
+  label: 'cow-Hut',
+  timestamp: '2023-07-02T17:24:09.060Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}

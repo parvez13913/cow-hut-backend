@@ -1,0 +1,60 @@
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { id: 1 },
+  keyValue: { id: null },
+  level: 'error',
+  label: 'cow-Hut',
+  timestamp: '2023-07-02T11:09:33.945Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { id: 1 },
+  keyValue: { id: null },
+  level: 'error',
+  label: 'cow-Hut',
+  timestamp: '2023-07-02T11:18:09.999Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { id: 1 },
+  keyValue: { id: null },
+  level: 'error',
+  label: 'cow-Hut',
+  timestamp: '2023-07-02T11:25:38.459Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { id: 1 },
+  keyValue: { id: null },
+  level: 'error',
+  label: 'cow-Hut',
+  timestamp: '2023-07-02T11:29:20.531Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { id: 1 },
+  keyValue: { id: null },
+  level: 'error',
+  label: 'cow-Hut',
+  timestamp: '2023-07-02T11:30:13.431Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { id: 1 },
+  keyValue: { id: null },
+  level: 'error',
+  label: 'cow-Hut',
+  timestamp: '2023-07-02T11:35:31.834Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
