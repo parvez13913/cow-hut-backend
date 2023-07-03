@@ -6,7 +6,7 @@ const createUser = async (payload: IUser): Promise<IUser | null> => {
   return result;
 };
 
-const getAllUser = async (): Promise<IUser[]> => {
+const getAllUsers = async (): Promise<IUser[]> => {
   const result = await User.find();
 
   return result;
@@ -14,5 +14,5 @@ const getAllUser = async (): Promise<IUser[]> => {
 
 export const UserService = {
   createUser,
-  getAllUser,
+  getAllUsers,
 };
