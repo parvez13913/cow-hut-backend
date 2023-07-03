@@ -13,5 +13,6 @@ router.post(
 
 router.get('/', UserController.getAllUsers);
 router.get('/:id', UserController.getSingleUser);
+router.patch('/:id', UserController.updateUser);
 
 export const UserRoute = router;
