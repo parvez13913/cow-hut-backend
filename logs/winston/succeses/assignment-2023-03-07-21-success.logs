@@ -2,95 +2,71 @@
   message: '🛢🛢 Database is Connected Successfully',
   level: 'info',
   label: 'cow-Hut',
-  timestamp: '2023-07-03T07:06:07.157Z'
+  timestamp: '2023-07-03T15:43:43.369Z'
 }
 {
   message: 'Database listening on port 5000',
   level: 'info',
   label: 'cow-Hut',
-  timestamp: '2023-07-03T07:06:07.180Z'
+  timestamp: '2023-07-03T15:43:44.368Z'
 }
 {
   message: '🛢🛢 Database is Connected Successfully',
   level: 'info',
   label: 'cow-Hut',
-  timestamp: '2023-07-03T07:11:27.133Z'
+  timestamp: '2023-07-03T15:54:33.010Z'
 }
 {
   message: 'Database listening on port 5000',
   level: 'info',
   label: 'cow-Hut',
-  timestamp: '2023-07-03T07:11:27.151Z'
+  timestamp: '2023-07-03T15:54:33.023Z'
 }
 {
   message: '🛢🛢 Database is Connected Successfully',
   level: 'info',
   label: 'cow-Hut',
-  timestamp: '2023-07-03T07:12:44.740Z'
+  timestamp: '2023-07-03T15:56:40.383Z'
 }
 {
   message: 'Database listening on port 5000',
   level: 'info',
   label: 'cow-Hut',
-  timestamp: '2023-07-03T07:12:44.837Z'
+  timestamp: '2023-07-03T15:56:40.400Z'
 }
 {
   message: '🛢🛢 Database is Connected Successfully',
   level: 'info',
   label: 'cow-Hut',
-  timestamp: '2023-07-03T07:13:56.273Z'
+  timestamp: '2023-07-03T15:56:52.694Z'
 }
 {
   message: 'Database listening on port 5000',
   level: 'info',
   label: 'cow-Hut',
-  timestamp: '2023-07-03T07:13:56.294Z'
+  timestamp: '2023-07-03T15:56:52.705Z'
 }
 {
   message: '🛢🛢 Database is Connected Successfully',
   level: 'info',
   label: 'cow-Hut',
-  timestamp: '2023-07-03T07:20:14.186Z'
+  timestamp: '2023-07-03T15:57:26.433Z'
 }
 {
   message: 'Database listening on port 5000',
   level: 'info',
   label: 'cow-Hut',
-  timestamp: '2023-07-03T07:20:14.199Z'
+  timestamp: '2023-07-03T15:57:26.444Z'
 }
 {
   message: '🛢🛢 Database is Connected Successfully',
   level: 'info',
   label: 'cow-Hut',
-  timestamp: '2023-07-03T07:21:59.078Z'
+  timestamp: '2023-07-03T15:59:30.699Z'
 }
 {
   message: 'Database listening on port 5000',
   level: 'info',
   label: 'cow-Hut',
-  timestamp: '2023-07-03T07:21:59.090Z'
-}
-{
-  message: '🛢🛢 Database is Connected Successfully',
-  level: 'info',
-  label: 'cow-Hut',
-  timestamp: '2023-07-03T07:51:48.284Z'
-}
-{
-  message: 'Database listening on port 5000',
-  level: 'info',
-  label: 'cow-Hut',
-  timestamp: '2023-07-03T07:51:48.318Z'
-}
-{
-  message: '🛢🛢 Database is Connected Successfully',
-  level: 'info',
-  label: 'cow-Hut',
-  timestamp: '2023-07-03T07:57:42.601Z'
-}
-{
-  message: 'Database listening on port 5000',
-  level: 'info',
-  label: 'cow-Hut',
-  timestamp: '2023-07-03T07:57:42.629Z'
+  timestamp: '2023-07-03T15:59:30.715Z'
 }
