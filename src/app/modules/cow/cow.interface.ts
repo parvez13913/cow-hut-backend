@@ -1,4 +1,6 @@
-type Location =
+import { Model } from 'mongoose';
+
+export type ILocation =
   | 'Dhaka'
   | 'Chattogram'
   | 'Barishal'
@@ -8,7 +10,7 @@ type Location =
   | 'Rangpur'
   | 'Mymensingh';
 
-type Breed =
+export type IBreed =
   | 'Brahman'
   | 'Nellore'
   | 'Sahiwal'
@@ -17,18 +19,20 @@ type Breed =
   | 'Tharparkar'
   | 'Kankrej';
 
-type Label = 'for sale' | 'sold out';
+export type ILabel = 'for sale' | 'sold out';
 
-type Category = 'Dairy' | 'Beef' | 'Dual Purpose';
+export type ICategory = 'Dairy' | 'Beef' | 'Dual Purpose';
 
-export type Cow = {
+export type ICow = {
   name: string;
   age: number;
   price: number;
-  location: Location;
-  breed: Breed;
+  location: ILocation;
+  breed: IBreed;
   weight: number;
-  label: Label;
-  category: Category;
+  label: ILabel;
+  category: ICategory;
   seller: string;
 };
+
+export type CowModel = Model<ICow, Record<string, unknown>>;
