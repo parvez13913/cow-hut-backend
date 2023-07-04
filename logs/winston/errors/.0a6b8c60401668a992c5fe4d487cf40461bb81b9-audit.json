@@ -119,6 +119,11 @@
             "date": 1688446380979,
             "name": "C:\\level-2\\assignment-3\\logs\\winston\\errors\\assignment-2023-04-07-10-error.logs",
             "hash": "d95b963623be6f0f90e49120f4204f252500e593655ea1e49a27217949c2fe30"
+        },
+        {
+            "date": 1688446952963,
+            "name": "C:\\level-2\\assignment-3\\logs\\winston\\errors\\assignment-2023-04-07-11-error.logs",
+            "hash": "0478bbfd9bb6cd2d91fffcb5249525430f0a0780e4c21b0d751ef5a88cfa6a3f"
         }
     ],
     "hashType": "sha256"

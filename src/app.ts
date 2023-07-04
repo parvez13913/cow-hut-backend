@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.use('/api/v1/auth/signup/', UserRoute);
+app.use('/api/v1/auth/', UserRoute);
 app.use('/api/v1/users/', UserRoute);
 
 // global Error Handler
