@@ -106,3 +106,27 @@
   label: 'cow-Hut',
   timestamp: '2023-07-04T06:12:37.647Z'
 }
+{
+  message: '🛢🛢 Database is Connected Successfully',
+  level: 'info',
+  label: 'cow-Hut',
+  timestamp: '2023-07-04T06:16:24.930Z'
+}
+{
+  message: 'Database listening on port 5000',
+  level: 'info',
+  label: 'cow-Hut',
+  timestamp: '2023-07-04T06:16:24.955Z'
+}
+{
+  message: '🛢🛢 Database is Connected Successfully',
+  level: 'info',
+  label: 'cow-Hut',
+  timestamp: '2023-07-04T06:18:20.163Z'
+}
+{
+  message: 'Database listening on port 5000',
+  level: 'info',
+  label: 'cow-Hut',
+  timestamp: '2023-07-04T06:18:20.183Z'
+}
