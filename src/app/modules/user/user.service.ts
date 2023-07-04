@@ -20,7 +20,7 @@ const updateUser = async (
   id: string,
   payload: Partial<IUser>
 ): Promise<IUser | null> => {
-  const result = await User.findByIdAndUpdate({ _id: id }, payload, {
+  const result = await User.findOneAndUpdate({ _id: id }, payload, {
     new: true,
   });
   return result;

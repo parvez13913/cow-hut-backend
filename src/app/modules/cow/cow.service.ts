@@ -65,7 +65,18 @@ const getAllCows = async (
 };
 
 const getSingleCow = async (id: string): Promise<ICow | null> => {
-  const result = await Cow.findById(id);
+  const result = await Cow.findOne({ id });
+  return result;
+};
+
+const updateCow = async (
+  id: string,
+  payload: Partial<ICow>
+): Promise<ICow | null> => {
+  const result = await Cow.findByIdAndUpdate({ _id: id }, payload, {
+    new: true,
+  });
+
   return result;
 };
 
@@ -73,4 +84,5 @@ export const CowService = {
   createCow,
   getAllCows,
   getSingleCow,
+  updateCow,
 };
