@@ -12,7 +12,7 @@ const getAllUsers = async (): Promise<IUser[]> => {
 };
 
 const getSingleUser = async (id: string): Promise<IUser | null> => {
-  const result = await User.findById(id);
+  const result = await User.findOne({ id });
   return result;
 };
 

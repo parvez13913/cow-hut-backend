@@ -27,8 +27,8 @@ export const Category: ICategory[] = ['Dairy', 'Beef', 'Dual Purpose'];
 
 export const cowFilterableFields = [
   'searchTerm',
-  'name',
-  'age',
+  'minPrice',
+  'maxPrice',
   'price',
   'weight',
 ];
