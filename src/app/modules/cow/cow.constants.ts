@@ -29,8 +29,8 @@ export const cowFilterableFields = [
   'searchTerm',
   'minPrice',
   'maxPrice',
+  'location',
   'price',
-  'weight',
 ];
 
 export const cowSearchableFields = [
