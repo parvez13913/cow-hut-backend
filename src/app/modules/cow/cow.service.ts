@@ -7,7 +7,7 @@ import { Cow } from './cow.model';
 import { IGenericResponse } from '../../../interfaces/common';
 
 const createCow = async (cowData: ICow): Promise<ICow> => {
-  const result = await Cow.create(cowData);
+  const result = (await Cow.create(cowData)).populate('seller');
   return result;
 };
 
