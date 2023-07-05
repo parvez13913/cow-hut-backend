@@ -10,9 +10,9 @@ router.post(
   validateRequest(UserValidation.createUserZodSchema),
   UserController.createUser
 );
+router.get('/:id', UserController.getSingleUser);
 
 router.get('/', UserController.getAllUsers);
-router.get('/:id', UserController.getSingleUser);
 router.patch(
   '/:id',
   validateRequest(UserValidation.updateUserZodSchema),

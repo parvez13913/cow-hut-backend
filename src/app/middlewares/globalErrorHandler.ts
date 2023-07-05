@@ -3,12 +3,13 @@
 import { ErrorRequestHandler } from 'express';
 import config from '../../config';
 import { IGenericErrorMessage } from '../../interfaces/error';
-import handelValidationError from '../../errors/handelValidationError';
+import handleValidationError from '../../errors/handleValidationError';
 import ApiError from '../../errors/ApiError';
 import { Error } from 'mongoose';
 import { errorLogger } from '../modules/shared/logger';
 import { ZodError } from 'zod';
-import handelZodError from '../../errors/handelZodError';
+import handleZodError from '../../errors/handleZodError';
+import handleCastError from '../../errors/handleCastError';
 
 const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
   config.env === 'development'
@@ -19,12 +20,17 @@ const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
   let errorMessages: IGenericErrorMessage[] = [];
 
   if (error?.name === 'ValidationError') {
-    const simplefiedError = handelValidationError(error);
+    const simplefiedError = handleValidationError(error);
     statusCode = simplefiedError.statusCode;
     message = simplefiedError.message;
     errorMessages = simplefiedError.errorMessages;
   } else if (error instanceof ZodError) {
-    const simplefiedError = handelZodError(error);
+    const simplefiedError = handleZodError(error);
+    statusCode = simplefiedError.statusCode;
+    message = simplefiedError.message;
+    errorMessages = simplefiedError.errorMessages;
+  } else if (error?.name === 'CastError') {
+    const simplefiedError = handleCastError(error);
     statusCode = simplefiedError.statusCode;
     message = simplefiedError.message;
     errorMessages = simplefiedError.errorMessages;

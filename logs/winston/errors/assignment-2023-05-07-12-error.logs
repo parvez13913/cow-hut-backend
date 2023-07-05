@@ -1,0 +1,130 @@
+{
+  stringValue: '"i"',
+  messageFormat: undefined,
+  kind: 'number',
+  value: 'i',
+  path: 'age',
+  reason: null,
+  valueType: 'string',
+  model: Model { Cow },
+  level: 'error',
+  label: 'cow-Hut',
+  timestamp: '2023-07-05T06:23:36.305Z'
+}
+{
+  stringValue: '"i"',
+  messageFormat: undefined,
+  kind: 'number',
+  value: 'i',
+  path: 'age',
+  reason: null,
+  valueType: 'string',
+  model: Model { Cow },
+  level: 'error',
+  label: 'cow-Hut',
+  timestamp: '2023-07-05T06:25:00.411Z'
+}
+{
+  stringValue: '"i"',
+  messageFormat: undefined,
+  kind: 'number',
+  value: 'i',
+  path: 'age',
+  reason: null,
+  valueType: 'string',
+  model: Model { Cow },
+  level: 'error',
+  label: 'cow-Hut',
+  timestamp: '2023-07-05T06:26:17.817Z'
+}
+{
+  stringValue: '"i"',
+  messageFormat: undefined,
+  kind: 'number',
+  value: 'i',
+  path: 'age',
+  reason: null,
+  valueType: 'string',
+  model: Model { Cow },
+  level: 'error',
+  label: 'cow-Hut',
+  timestamp: '2023-07-05T06:30:27.584Z'
+}
+{
+  stringValue: '"i"',
+  messageFormat: undefined,
+  kind: 'number',
+  value: 'i',
+  path: 'age',
+  reason: null,
+  valueType: 'string',
+  model: Model { Cow },
+  level: 'error',
+  label: 'cow-Hut',
+  timestamp: '2023-07-05T06:32:28.822Z'
+}
+{
+  stringValue: '"i"',
+  messageFormat: undefined,
+  kind: 'number',
+  value: 'i',
+  path: 'price',
+  reason: null,
+  valueType: 'string',
+  model: Model { Cow },
+  level: 'error',
+  label: 'cow-Hut',
+  timestamp: '2023-07-05T06:40:29.847Z'
+}
+{
+  stringValue: '"i"',
+  messageFormat: undefined,
+  kind: 'number',
+  value: 'i',
+  path: 'price',
+  reason: null,
+  valueType: 'string',
+  model: Model { Cow },
+  level: 'error',
+  label: 'cow-Hut',
+  timestamp: '2023-07-05T06:42:49.234Z'
+}
+{
+  stringValue: '"i"',
+  messageFormat: undefined,
+  kind: 'number',
+  value: 'i',
+  path: 'price',
+  reason: null,
+  valueType: 'string',
+  model: Model { Cow },
+  level: 'error',
+  label: 'cow-Hut',
+  timestamp: '2023-07-05T06:52:40.687Z'
+}
+{
+  stringValue: '"i"',
+  messageFormat: undefined,
+  kind: 'number',
+  value: 'i',
+  path: 'price',
+  reason: null,
+  valueType: 'string',
+  model: Model { Cow },
+  level: 'error',
+  label: 'cow-Hut',
+  timestamp: '2023-07-05T06:54:04.447Z'
+}
+{
+  stringValue: '"Br"',
+  messageFormat: undefined,
+  kind: 'number',
+  value: 'Br',
+  path: 'price',
+  reason: null,
+  valueType: 'string',
+  model: Model { Cow },
+  level: 'error',
+  label: 'cow-Hut',
+  timestamp: '2023-07-05T06:55:22.577Z'
+}

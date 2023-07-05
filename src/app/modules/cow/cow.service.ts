@@ -16,14 +16,15 @@ const getAllCows = async (
   paginationOptions: IPaginationOptions
 ): Promise<IGenericResponse<ICow[]>> => {
   const { searchTerm, ...filtersData } = filters;
+
   const { page, limit, skip, sortBy, sortOrder } =
     PaginationHelpers.calculatePagination(paginationOptions);
 
   const andCondition = [];
   if (searchTerm) {
     andCondition.push({
-      $or: cowSearchableFields.map(fields => ({
-        [fields]: {
+      $or: cowSearchableFields.map(field => ({
+        [field]: {
           $regex: searchTerm,
           $options: 'i',
         },
@@ -65,7 +66,7 @@ const getAllCows = async (
 };
 
 const getSingleCow = async (id: string): Promise<ICow | null> => {
-  const result = await Cow.findOne({ id });
+  const result = await Cow.findById(id);
   return result;
 };
 

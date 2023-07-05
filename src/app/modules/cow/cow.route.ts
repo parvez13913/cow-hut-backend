@@ -10,8 +10,8 @@ router.post(
   validateRequest(CowValidation.createCowZodSchema),
   CowController.createCow
 );
-router.get('/', CowController.getAllCows);
 router.get('/:id', CowController.getSingleCow);
+router.get('/', CowController.getAllCows);
 router.patch(
   '/:id',
   validateRequest(CowValidation.updatedCowZodSchema),
