@@ -5,7 +5,10 @@ import ApiError from '../../../errors/ApiError';
 import mongoose from 'mongoose';
 import { Order } from './order.model';
 
-const createOrder = async (cow: string, buyer: string): Promise<IOrder> => {
+const createOrder = async (
+  cow: string,
+  buyer: string
+): Promise<IOrder | null> => {
   // check if the user and cow IDs are valid
   const isValidUser = await User.findById(buyer);
   const isValidCow = await Cow.findById(cow);
@@ -36,7 +39,17 @@ const createOrder = async (cow: string, buyer: string): Promise<IOrder> => {
       $inc: { income: isValidCow.price },
     });
 
-    const newOrder = await Order.create({ cow, buyer });
+    const newOrder = (await Order.create({ cow, buyer })).populate({
+      path: 'order',
+      populate: [
+        {
+          path: 'cow',
+        },
+        {
+          path: 'buyer',
+        },
+      ],
+    });
     await session.commitTransaction();
     await session.endSession();
     return newOrder;
@@ -47,6 +60,12 @@ const createOrder = async (cow: string, buyer: string): Promise<IOrder> => {
   }
 };
 
+const getAllOrders = async (): Promise<IOrder[]> => {
+  const result = await Order.find();
+
+  return result;
+};
 export const OrderService = {
   createOrder,
+  getAllOrders,
 };
