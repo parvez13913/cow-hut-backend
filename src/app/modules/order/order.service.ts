@@ -39,17 +39,10 @@ const createOrder = async (
       $inc: { income: isValidCow.price },
     });
 
-    const newOrder = (await Order.create({ cow, buyer })).populate({
-      path: 'order',
-      populate: [
-        {
-          path: 'cow',
-        },
-        {
-          path: 'buyer',
-        },
-      ],
-    });
+    const newOrder = (await Order.create({ cow, buyer })).populate(
+      'cow',
+      'user'
+    );
     await session.commitTransaction();
     await session.endSession();
     return newOrder;
