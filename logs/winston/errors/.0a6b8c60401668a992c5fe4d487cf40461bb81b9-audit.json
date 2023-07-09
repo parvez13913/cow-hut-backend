@@ -224,6 +224,36 @@
             "date": 1688788400178,
             "name": "C:\\level-2\\assignment-3\\logs\\winston\\errors\\assignment-2023-08-07-09-error.logs",
             "hash": "97534697c9cafc56c474b1027612265c92e1f63f3e43b8b81377765a1243c5f5"
+        },
+        {
+            "date": 1688791487841,
+            "name": "C:\\level-2\\assignment-3\\logs\\winston\\errors\\assignment-2023-08-07-10-error.logs",
+            "hash": "de29f848718e91858711f03f99494d2c7e9a5d1cf2d433348f8d388189868e33"
+        },
+        {
+            "date": 1688772439445,
+            "name": "C:\\level-2\\assignment-3\\logs\\winston\\errors\\assignment-2023-08-07-05-error.logs",
+            "hash": "99f1bfe89be53665b389b0c3722d7c3d955a69f06810d85c0d54628df7b46190"
+        },
+        {
+            "date": 1688774659719,
+            "name": "C:\\level-2\\assignment-3\\logs\\winston\\errors\\assignment-2023-08-07-06-error.logs",
+            "hash": "cf51707aa82c2ef5327022c1dcfaf1ed42e7e1edc2369c228ed90cd0d976bdb3"
+        },
+        {
+            "date": 1688813666496,
+            "name": "C:\\level-2\\assignment-3\\logs\\winston\\errors\\assignment-2023-08-07-16-error.logs",
+            "hash": "44bf47e799f30d336b02fbe804f08dd2505785fa0ea72db6970477b77f977574"
+        },
+        {
+            "date": 1688814187189,
+            "name": "C:\\level-2\\assignment-3\\logs\\winston\\errors\\assignment-2023-08-07-17-error.logs",
+            "hash": "3e7830e2099cf9071c8922584fec82575242e29de85d9bdb873ac2fbde8c8750"
+        },
+        {
+            "date": 1688884287842,
+            "name": "C:\\level-2\\assignment-3\\logs\\winston\\errors\\assignment-2023-09-07-12-error.logs",
+            "hash": "05aa8d164f0ceea4cec10d2f4fa03e3bc34e3cd6db1aff8da548cce91219f28d"
         }
     ],
     "hashType": "sha256"
