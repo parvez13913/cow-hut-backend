@@ -9,9 +9,9 @@
 ## Cows
 * api/v1/cows (POST)
 * api/v1/cows (GET)
-* api/v1/cows/64a89fc2c8050fa1da8bf044 (Single GET)
-* api/v1/cows/64a89fc2c8050fa1da8bf044 (PATCH)
-* api/v1/cows/64a89fc2c8050fa1da8bf044 (DELETE)
+* api/v1/cows/64aa57c208ae96f5e1a130a6 (Single GET)
+* api/v1/cows/64aa57c208ae96f5e1a130a6 (PATCH)
+* api/v1/cows/64aa57c208ae96f5e1a130a6 (DELETE)
 
 ## Pagination and Filtering Routes of Cows
 * api/v1/cows?pag=1&limit=10
