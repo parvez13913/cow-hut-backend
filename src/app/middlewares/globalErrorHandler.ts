@@ -6,7 +6,6 @@ import { IGenericErrorMessage } from '../../interfaces/error';
 import handleValidationError from '../../errors/handleValidationError';
 import ApiError from '../../errors/ApiError';
 import { Error } from 'mongoose';
-import { errorLogger } from '../modules/shared/logger';
 import { ZodError } from 'zod';
 import handleZodError from '../../errors/handleZodError';
 import handleCastError from '../../errors/handleCastError';
@@ -14,7 +13,7 @@ import handleCastError from '../../errors/handleCastError';
 const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
   config.env === 'development'
     ? console.log('🚀globalErroeHandler ~', error)
-    : errorLogger.error('🚀globalErroeHandler ~', error);
+    : console.log('🚀globalErroeHandler ~', error);
   let statusCode = 500;
   let message = 'Somthing went wrong!!';
   let errorMessages: IGenericErrorMessage[] = [];
