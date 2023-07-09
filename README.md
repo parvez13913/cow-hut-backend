@@ -1,3 +1,3 @@
-#Application Routes:
+Application Routes:
 
 ##User
